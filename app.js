@@ -38,7 +38,7 @@ app.use(errorHandler);
 //   }
 // );
 
-const PORT = process.env.PORT || 80000
+const PORT = process.env.PORT || 8000
 
 app.listen(PORT, () => {
   console.log("the port is listening on port + PORT");
